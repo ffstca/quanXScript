@@ -1,10 +1,12 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 console.log('================')
-console.log(body)
+console.log(obj)
 obj['result']['username'] = "12345678";
-modifiedBody = JSON.stringify(obj);
+obj['result']['count_like'] = 99999;
 
+modifiedBody = JSON.stringify(obj);
+setTimeout(function() { console.log("abc22222"); }, 1000);
 console.log(modifiedBody);
 
-$done({ 'body': modifiedBody });
+$done({modifiedBody});
