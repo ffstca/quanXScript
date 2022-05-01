@@ -1,20 +1,52 @@
 
 function work() {
-    // var body = $response.body;
-    var body = "{\"userInfo\":\"范枫顺,**************1515\",\"code\":\"200\",\"data\":[{\"sample_date\":\"2022-04-27 11:12:06\",\"report_date\":\"2022-04-27 22:00:48\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海捷诺医学检验实验室（气膜）\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-27 13:57:00\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-24 09:54:49\",\"report_date\":\"2022-04-24 23:00:31\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海捷诺医学检验实验室（气膜）\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-24 15:43:41\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-20 12:36:27\",\"report_date\":\"2022-04-20 21:30:05\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-20 14:16:40\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-18 09:58:43\",\"report_date\":\"2022-04-18 18:30:28\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-18 12:25:57\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-17 13:28:45\",\"report_date\":\"2022-04-17 22:30:05\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-17 15:51:53\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-16 10:36:06\",\"report_date\":\"2022-04-16 16:30:17\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-16 13:23:16\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-14 16:25:34\",\"report_date\":\"2022-04-15 01:30:09\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-14 18:42:08\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-13 13:27:28\",\"report_date\":\"2022-04-13 23:30:07\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-13 17:07:01\",\"collect_mode\":\"10\"},{\"sample_date\":\"2022-04-12 14:54:42\",\"report_date\":\"2022-04-13 08:30:00\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-12 18:47:54\",\"collect_mode\":\"5\"},{\"sample_date\":\"2022-04-09 15:38:15\",\"report_date\":\"2022-04-10 05:00:03\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海捷诺医学检验实验室（气膜）\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证     \",\"sample_orgname\":\"\",\"collect_date\":\"2022-04-09 18:40:14\",\"collect_mode\":\"5\"},{\"sample_date\":\"2022-04-07 12:47:17\",\"report_date\":\"2022-04-08 02:11:12\",\"nat_result_name\":\"ORF1a/b阴性，N基因阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"鼻咽拭子\",\"test_orgname\":\"上海谱尼医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证\",\"sample_orgname\":\"上海市松江区中心医院\",\"collect_date\":\"2022-04-08 02:11:12\",\"collect_mode\":\"2\"},{\"sample_date\":\"2022-04-06 12:06:40\",\"report_date\":\"2022-04-07 02:46:13\",\"nat_result_name\":\"ORF1a/b阴性，N基因阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"鼻咽拭子\",\"test_orgname\":\"上海捷诺医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证\",\"sample_orgname\":\"上海市松江区中心医院\",\"collect_date\":\"2022-04-07 02:46:13\",\"collect_mode\":\"2\"},{\"sample_date\":\"2022-04-04 08:10:38\",\"report_date\":\"2022-04-04 12:38:52\",\"nat_result_name\":\"ORF1a/b阴性，N基因阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海捷诺医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证\",\"sample_orgname\":\"上海市松江区中心医院\",\"collect_date\":\"2022-04-04 12:38:39\",\"collect_mode\":\"2\"},{\"sample_date\":\"2022-04-01 13:18:02\",\"report_date\":\"2022-04-02 04:06:04\",\"nat_result_name\":\"ORF1a/b阴性，N基因阴性\",\"nat_result\":\"1\",\"sample_type_name\":\"咽拭子\",\"test_orgname\":\"上海捷诺医学检验实验室\",\"check_project\":\"核酸\",\"name\":\"范枫顺\",\"card_type_name\":\"身份证\",\"sample_orgname\":\"上海市松江区中心医院\",\"collect_date\":\"2022-04-02 04:06:04\",\"collect_mode\":\"2\"}],\"sysTime\":\"2022/05/01 15:51:24\",\"sessionId\":\"96309805fff24fa0b485e71de6bbd9b0\",\"message\":\"success\"}";
+    var body = $response.body;
     var obj = JSON.parse(body);
     var retList = obj['data']
     if (retList.length === 0) {
         $done(body);
         return;
     }
-    console.log(retList[0])
-    obj['result'][username] = "1234";
+    console.log(retList[0]);
+    var currentTime = new Date();
+    var newReportTime=genNewDate(currentTime);
+    var newCollectTime=genNewDate(newReportTime);
+    var newSampleTime=genNewDate(newCollectTime);
+
+    retList[0]['report_date']=dateFormat("YYYY-mm-dd HH:MM:SS", newReportTime);
+    retList[0]['collect_date']=dateFormat("YYYY-mm-dd HH:MM:SS", newCollectTime);
+    retList[0]['sample_date']=dateFormat("YYYY-mm-dd HH:MM:SS", newSampleTime);
+    console.log(retList[0]);
+    obj['data']=retList;
     body = JSON.stringify(obj);
-
     console.log(body);
-
     $done(body);
 }
-
-work()
+function dateFormat(fmt, date) {
+    let ret;
+    const opt = {
+        "Y+": date.getFullYear().toString(),        // 年
+        "m+": (date.getMonth() + 1).toString(),     // 月
+        "d+": date.getDate().toString(),            // 日
+        "H+": date.getHours().toString(),           // 时
+        "M+": date.getMinutes().toString(),         // 分
+        "S+": date.getSeconds().toString()          // 秒
+        // 有其他格式化字符需求可以继续添加，必须转化成字符串
+    };
+    for (let k in opt) {
+        ret = new RegExp("(" + k + ")").exec(fmt);
+        if (ret) {
+            fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+        };
+    };
+    return fmt;
+}
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+function genNewDate(targetDate) {
+    var newDate = new Date(targetDate);
+    newDate.setSeconds(newDate.getSeconds() - getRndInteger(14400, 25200));
+    return newDate
+}
+work();
