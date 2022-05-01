@@ -10,7 +10,8 @@ function work() {
         if (typeof natRet == "undefined" || natRet == null || natRet == "") {
             console.log("pass null result " + JSON.stringify(item))
         } else {
-            newRetList.push(item)
+            item['nat_result'] = "1";
+            newRetList.push(item);
         }
     }
     if (newRetList.length === 0) {
