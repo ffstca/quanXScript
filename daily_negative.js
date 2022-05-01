@@ -1,25 +1,33 @@
 
 function work() {
     var body = $response.body;
+    // var body ="";
     var obj = JSON.parse(body);
     var retList = obj['data']
-    if (retList.length === 0) {
+    newRetList = []
+    for (item of retList) {
+        natRet = item['nat_result']
+        if (typeof natRet == "undefined" || natRet == null || natRet == "") {
+            console.log("pass null result " + JSON.stringify(item))
+        } else {
+            newRetList.push(item)
+        }
+    }
+    if (newRetList.length === 0) {
         $done(body);
         return;
     }
-    console.log(retList[0]);
     var currentTime = new Date();
-    var newReportTime=genNewDate(currentTime);
-    var newCollectTime=genNewDate(newReportTime);
-    var newSampleTime=genNewDate(newCollectTime);
+    var newReportTime = genNewDate(currentTime);
+    var newCollectTime = genNewDate(newReportTime);
+    var newSampleTime = genNewDate(newCollectTime);
 
-    retList[0]['report_date']=dateFormat("YYYY-mm-dd HH:MM:SS", newReportTime);
-    retList[0]['collect_date']=dateFormat("YYYY-mm-dd HH:MM:SS", newCollectTime);
-    retList[0]['sample_date']=dateFormat("YYYY-mm-dd HH:MM:SS", newSampleTime);
-    console.log(retList[0]);
-    obj['data']=retList;
+    newRetList[0]['report_date'] = dateFormat("YYYY-mm-dd HH:MM:SS", newReportTime);
+    newRetList[0]['collect_date'] = dateFormat("YYYY-mm-dd HH:MM:SS", newCollectTime);
+    newRetList[0]['sample_date'] = dateFormat("YYYY-mm-dd HH:MM:SS", newSampleTime);
+    console.log(JSON.stringify(newRetList[0]));
+    obj['data'] = newRetList;
     body = JSON.stringify(obj);
-    console.log(body);
     $done(body);
 }
 function dateFormat(fmt, date) {
