@@ -8,5 +8,4 @@ obj['result']['count_like'] = 99999;
 modifiedBody = JSON.stringify(obj);
 setTimeout(function() { console.log("abc22222"); }, 1000);
 console.log(modifiedBody);
-
-$done({modifiedBody});
+$done(modifiedBody);
