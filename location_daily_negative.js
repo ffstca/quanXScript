@@ -1,6 +1,6 @@
 function work() {
     var body = $response.body;
-    // var body = "{\"userInfo\":\"范枫顺,**************1515\",\"code\":\"200\",\"data\":[{\"sample_date\":\"2022-05-05 12:25:42\",\"nat_result_name\":\"阴性\",\"nat_result\":\"1\",\"collect_mode\":\"10\"}],\"sysTime\":\"2022/05/05 21:54:03\",\"sessionId\":\"75676f1b494e4fbd8216878a309c3883\",\"message\":\"success\"}";
+    // var body = "";
     var obj = JSON.parse(body);
     var retList = obj['data']
     if (retList.length === 0) {
